@@ -33,69 +33,6 @@ DialogLab/
     └── ...         # Core server logic
 ```
 
-## Getting Started
-
-### 1. Install Dependencies
-
-```bash
-# Install client dependencies
-cd client
-npm install
-
-# Install server dependencies
-cd ../server
-npm install
-```
-
-### 2. Configure Environment Variables
-
-Create a `.env` file in the `server/` directory with your API keys:
-
-```env
-# Core Configuration
-NODE_ENV=development
-
-# LLM Providers (configure at least one)
-GEMINI_API_KEY=your-gemini-api-key-here
-API_KEY_LLM=your-openai-api-key-here
-
-# Defaults (optional)
-DEFAULT_LLM_PROVIDER=gemini   # or openai
-DEFAULT_OPENAI_MODEL=gpt-4
-DEFAULT_GEMINI_MODEL=gemini-2.0-flash
-
-# Text-to-Speech (optional - for avatar speech synthesis)
-TTS_API_KEY=your-google-tts-api-key-here
-TTS_ENDPOINT=https://eu-texttospeech.googleapis.com/v1beta1/text:synthesize
-```
-
-**Note**: You need at least one LLM provider API key (OpenAI or Gemini) to run conversations.
-
-### 3. Start the Server
-
-```bash
-cd server
-node server.js
-```
-
-The server will start at `http://localhost:3010`. You should see a message confirming the server is running.
-
-### 4. Start the Client
-
-In a separate terminal:
-
-```bash
-cd client
-npm run dev
-```
-
-Open your browser and navigate to `http://localhost:5173`.
-
-## Third-Party Components & Licenses
-
-### TalkingHead (MIT License)
-Portions of this project's code are adapted from the open-source project [TalkingHead](https://github.com/met4citizen/TalkingHead), © 2024 Mika Suominen (met4citizen), licensed under the MIT License.
-
 **Files**: `client/public/libs/talkinghead.mjs`
 
 ### Three.js (MIT License)
