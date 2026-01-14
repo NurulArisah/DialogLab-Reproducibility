@@ -1,7 +1,7 @@
 {
-  "title": "Reproducibility Study of DialogLab (UIST '25)",
-  "description": "A reproducibility study of the DialogLab authoring tool for multi-agent conversations using 3D avatars, configured with Node.js and Gemini/OpenAI LLMs.",
+  "title": "Reproducibility Study of DialogLab",
+  "description": "A reproducibility study of the DialogLab authoring tool for multi-agent conversations using 3D avatars.",
   "authors": ["Nurul Arisah"],
-  "tags": ["UIST 2025", "Multi-Agent Systems", "Human-AI Interaction", "3D Avatars"],
+  "tags": ["UIST 2025", "Human-AI", "3D Avatars"],
   "visibility": "public"
 }
